@@ -1,14 +1,23 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+int main(void) {
+int arr[20],n,temp=0;
+scanf("%d",&n);
+for(int i=0;i<n;i++)
 {
-	int a,b,i,gcd;
-	scanf("%d %d",&a,&b);
-	
-	for(i=2;i<=a&&i<=b;i++)
+	scanf("%d\n",&arr[i]);
+}
+for(int i=0;i<n;i++)
+{
+	for(int j=i+1;j<n;j++)
 	{
-              if(a%i==0&&b%i==0)
-              gcd=i;
+		if(arr[i]<arr[j])
+		{
+			temp=arr[i];
+			arr[i]=arr[j];
+			arr[j]=temp;
+		}
 	}
-	printf("%d %d",gcd,gcd);
-	return 0;
+}
+printf("%d\n",arr[0]);
+return 0;
 }
