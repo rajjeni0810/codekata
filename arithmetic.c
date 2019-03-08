@@ -1,11 +1,19 @@
 #include<stdio.h>
 int main()
 {
-int n,a,b,l;
-float sum;
-scanf("%d%d%d",&n,&a,&b);
-l=a+((n-1)*b);
-sum=(n/2)*(a+l);
-printf("%d",sum);
-return 0;
+    int z,d,n,i,t=0,sum=0;
+    scanf("%d%d%d",&z,&d,&n);
+    for(i=z;i<=n;i=i+d)
+    {
+        if(t==0)
+        {
+            sum=z;
+            t=1;
+        }
+        else
+        {
+            sum=sum+i;
+        }
+    }
+    printf("%d",sum);
 }
