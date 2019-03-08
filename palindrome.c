@@ -18,4 +18,4 @@ int main()
 			printf("\nNo");
 	return 0;
 }
-© 2019 GitHub, Inc.
+
