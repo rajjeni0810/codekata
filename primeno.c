@@ -5,7 +5,7 @@ int x,y;
 scanf("%d %d",&x,&y);
 for(int j=x;j<y;j++)
 {
-int count=0;
+int count=1;
 for(int i=2;i<j;i++)
 {
 if(j%i==0)
