@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Natural
+class naturalno
 {
 	
 	public static void main(String args[])
