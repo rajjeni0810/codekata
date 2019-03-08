@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-	int i,rev=0,rem,y;
+	int n,rev=0,rem,y;
 	scanf("%d",&n);
-	y=i;
+	y=n;
 	while(n>0)
 	{
 		rem=n%10;
@@ -18,3 +18,4 @@ int main()
 			printf("\nNo");
 	return 0;
 }
+© 2019 GitHub, Inc.
