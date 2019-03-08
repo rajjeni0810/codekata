@@ -11,9 +11,9 @@ int main() {
    }
 
    if(sum == arms) 
-      printf("yes", arms);
-   else 
       printf("no", arms);
+   else 
+      printf("yes", arms);
       
    return 0;
 }
