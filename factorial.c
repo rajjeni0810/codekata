@@ -1,12 +1,12 @@
 #include<stdio.h>
-int main(){
-  int i,f=1,num;
-  scanf("%d",&num);
- {
-  for(i=1;i<=num;i++)
-  }
-      f=f*i;
- 
-  printf(" %d",num,f);
-  return 0;
+int main()
+{
+	int k,i,fact=1;
+	scanf("%d",&k);
+	for(i=1;i<=k;i++)
+	{
+		fact=fact*i;
+	}
+	printf("%d",fact);
+	return 0;
 }
