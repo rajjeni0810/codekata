@@ -1,19 +1,28 @@
-int main() {
-   int arms = 153; 
-   int check, rem, sum = 0;
-
-   check = arms;
-
-   while(check != 0) {
-      rem = check % 10;
-      sum = sum + (rem * rem * rem);
-      check = check / 10;
-   }
-
-   if(sum == arms) 
-      printf("no", arms);
-   else 
-      printf("yes", arms);
-      
-   return 0;
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+ int n,count=0,rem,sum=0,temp1,temp2;
+ scanf("%d",&n);
+ temp1=temp2=n;
+ while(temp1>0)
+ {
+   
+     count++;
+     temp1/=10;
+ }
+ while(temp2>0)
+ {
+     rem=temp2%10;
+     sum=sum+pow(rem,count);
+     temp2/=10;
+ }
+ if(sum==n)
+ {
+     printf("yes");
+ }
+ else
+ {
+     printf("no");
+ }
 }
