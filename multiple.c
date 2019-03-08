@@ -1,11 +1,12 @@
-#include <stdio.h>
-
-int main(void) {
-	int j,i,e;
-    scanf("%d",&j);
-    for(i=1;i<=10;i++)
-{ e=j*i;
-printf("%d*%d=%d\n",j,i,e);
+#i#include <stdio.h>
+int main(void) 
+{
+int i,n,p;
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+p=n*i;
+printf("%d\t",p);
 }
-	return 0;
+return 0;
 }
