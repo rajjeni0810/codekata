@@ -1,16 +1,15 @@
-#include<stdio.h>
-int main()
+ 
+#include <stdio.h>
+ 
+int main(void) 
 {
-int up,low,i,k=0;
-
-scanf("%d",&low);
-
-scanf("%d",&up);
-for(i=low;i<=up;i++)
+int i;
+for(i=10;i<=20;i++)
 {
-  if(i%2!=0)
-    printf("\n %d",i);
+if(i%2!=0)
+printf("%d",i);
+printf("\t");
 }
-
+ 
 return 0;
 }
