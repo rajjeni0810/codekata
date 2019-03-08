@@ -13,7 +13,7 @@ count++;
 }
 if(count==0)
 {
-	printf("%d\n",j);
+	printf("%d" \n,j);
 }
 
 }
