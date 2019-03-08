@@ -11,7 +11,7 @@ for(int i=2;i<j;i++)
 if(j%i==0)
 count++;
 }
-if(count==0)
+if(count==1)
 {
 	printf("%d" \n,j);
 }
