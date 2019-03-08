@@ -1,11 +1,14 @@
-#include<stdio.h>
-int main(void)
+#include <stdio.h>
+#include <math.h>
+
+int main()
 {
-    int a,b,i;
-    scanf("%d %d",&a,&b);
-    for(i=a;i<=b;i++)
-    { 
-        if(i%2==0)
-        printf("%d ",i);
-    }
- }
+   int n,m,i;
+   scanf("%d%d",&n,&m);
+   for(i=n+1;i<m;i++)
+   {
+       if(i%2=0)
+       printf("%d ",i);
+   }
+    return 0;
+}
