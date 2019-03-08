@@ -1,12 +1,16 @@
-#include <stdio.h>
+#include<stdio.h>
+int main()
+{
+int up,low,i,k=0;
 
-int main(void) {
-	int j,k,i;
-	scanf("%d%d",&a,&b);
-	for(i=j+1;i<=k;i++)
-	{
-	if(i%2!=0)
-            printf("%d ",i);
-	}
-	return 0;
+scanf("%d",&low);
+
+scanf("%d",&up);
+for(i=low;i<=up;i++)
+{
+  if(i%2!=0)
+    printf("\n %d",i);
+}
+
+return 0;
 }
